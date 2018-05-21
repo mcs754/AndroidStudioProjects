@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mensageiro</string>
+    <string name="btn_texto">Enviar</string>
+    <string name="hint_mensagem">Mensagem:</string>
+</resources>
