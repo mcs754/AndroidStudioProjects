@@ -1,7 +1,6 @@
 package br.edu.ifro.ads.notas.adapter;
 import android.app.Activity;
 import android.graphics.Color;
-import android.graphics.Paint;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -46,8 +45,7 @@ public class ListarNotasAdapter extends BaseAdapter {
         txtItemDataHora.setText(formatacao.format(nota.getDataHora()));
 
         if (nota.isRealizado()){
-            txtItemDescricao.setTextColor(Color.RED);
-            txtItemDescricao.setPaintFlags(txtItemDescricao.getPaintFlags()| Paint.STRIKE_THRU_TEXT_FLAG);
+            txtItemDescricao.setTextColor(Color.BLACK);
         }
 
         return view;

@@ -36,7 +36,8 @@ public class ListarNotasActivity extends AppCompatActivity {
             }
         });
 
-        lsvListarNotas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lsvListarNotas.setOnItemClickListener(
+                new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(ListarNotasActivity.this, AlterarNotaActivity.class);
